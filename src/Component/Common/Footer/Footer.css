@@ -1,0 +1,78 @@
+.footer-section
+{
+    background-image: url(./dark-theme.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.footer-section .quick-links
+{
+    padding: 10px 5px;
+}
+.footer-section .quick-links a
+{
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+.footer-section .quick-links a:hover
+{
+    color: tomato;
+}
+.footer-section .quick-links .mobile-section
+{
+    margin-right: 5px;
+}
+.footer-section .quick-links .email-section
+{
+    margin-right: 5px;
+}
+.footer-section .quick-links p .icon svg
+{
+    font-size: 28px;
+    margin-right: 10px;
+}
+.footer-section .quick-links .whatsapp-section input
+{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-section .quick-links .whatsapp-section input:focus
+{
+    border: 4px solid tomato;
+}
+.footer-section .quick-links .whatsapp-section button
+{
+    margin: 10px;
+    padding: 5px 15px;
+    background: tomato;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.footer-section .quick-links .whatsapp-section button:hover
+{
+    background: rgb(247, 42, 5);
+}
+@media (max-width: 320px) {
+    .footer-section .quick-links .whatsapp-section button
+    {
+        margin: 5px auto;
+    }
+}
+@media (max-width: 1024px) {
+    .footer-section .quick-links .whatsapp-section button
+    {
+        margin: 10px auto;
+    }
+}
+@media (max-width: 992px) {
+    .footer-section .quick-links .whatsapp-section button
+    {
+        margin: 10px 10px;
+    }
+}

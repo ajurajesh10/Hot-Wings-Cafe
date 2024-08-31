@@ -1,0 +1,28 @@
+.iframe-container {
+    width: 100vh;  /* 70% of the viewport height for width */
+    height: 70vh; /* 70% of the viewport height for height */
+    max-width: 100%; /* Ensure the iframe doesn't exceed the column's width */
+    max-height: 100%; /* Ensure the iframe doesn't exceed the column's height */
+  }
+  
+  @media (max-width: 768px) {
+    .iframe-container {
+      width: 100%; /* On smaller screens, make the iframe take full width */
+      height: 70vh; /* Height adjusts based on content on smaller screens */
+    }
+  }
+  
+  .location-feedback .sendBtn
+  {
+    background: tomato;
+    color: white;
+    border: 0;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+  .location-feedback .sendBtn:hover
+  {
+    background: rgb(244, 41, 5);
+    color: white;
+  }

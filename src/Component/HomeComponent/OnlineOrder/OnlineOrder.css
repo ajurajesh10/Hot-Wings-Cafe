@@ -1,0 +1,28 @@
+.order-online-page .heading
+{
+    font-family: var(--fontFamily1);
+}
+.order-online-page .online-order 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.order-online-page .online-order a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    width: 250px;
+    text-align: center;
+}
+.order-online-page .online-order a:hover
+{
+    color: tomato;
+    border: 2px solid tomato;
+}

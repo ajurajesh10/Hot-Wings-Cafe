@@ -1,0 +1,204 @@
+/* Sticky Menu */
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: smoothScroll 1s forwards;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 2px;
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.is-sticky .navbar .navbar-brand .nav-link {
+    color: tomato;
+}
+
+.is-sticky .navbar .navbar-brand .nav-link:hover {
+    color: rgb(198, 44, 17);
+}
+
+.is-sticky .navbar .offcanvas-body a {
+    color: black !important;
+}
+
+.is-sticky .toggle-btn {
+    color: tomato !important;
+}
+
+/* Header Styles */
+header {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    padding: 12px 0;
+    width: 100%;
+}
+
+header .navbar .toggle-btn:hover {
+    color: tomato !important;
+    border: 2px solid tomato !important;
+    cursor: pointer;
+}
+
+header .navbar .navbar-brand .nav-link {
+    font-size: 22px;
+    color: tomato;
+    line-height: 150%;
+    font-family: var(--fontFamily1);
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header .navbar .navbar-brand .nav-link:hover {
+    color: gainsboro;
+}
+
+header .navbar .offcanvas-body a {
+    color: white !important;
+    line-height: 150%;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: all 0.2s ease-in-out !important;
+}
+
+header .navbar .offcanvas-body a:hover {
+    transform: translateY(-3px);
+    color: tomato !important;
+}
+
+header .navbar .offcanvas-body a.active {
+    width: fit-content;
+    transition: all 0.2s ease-in-out;
+    color: tomato !important;
+    border-bottom: 2px solid tomato;
+}
+
+header .navbar .offcanvas-body .orderbtn {
+    display: none !important;
+}
+
+/* Primary Button */
+.primaryBtn {
+    background-color: tomato !important;
+    padding: 8px 15px !important;
+    font-size: 16px;
+    color: white !important;
+    text-align: center;
+    position: relative;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 500 !important;
+    transition: all 0.2s ease-in-out !important;
+    border-radius: 4px;
+}
+
+.primaryBtn:hover {
+    transform: translateY(-3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    header .navbar .toggle-btn {
+        font-size: 16px;
+        color: white;
+        border: 2px solid white !important;
+        padding: 7px 10px;
+    }
+
+    .is-sticky .navbar .toggle-btn {
+        border: 2px solid tomato !important;
+    }
+
+    .offcanvas-header span:hover {
+        color: tomato;
+        cursor: pointer;
+    }
+
+    .offcanvas-header {
+        border: 1px solid gainsboro;
+    }
+
+    .offcanvas-header .logo {
+        font-size: 26px;
+        color: tomato !important;
+        font-family: var(--fontFamily1);
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .offcanvas-body .nav-link {
+        padding: 12px 0px;
+        color: black;
+    }
+
+    .offcanvas-body a {
+        text-decoration: none !important;
+        padding: 12px 0px !important;
+        color: black !important;
+        font-weight: 500;
+        width: auto;
+        transition: all 0.2s ease-in-out !important;
+    }
+
+    .offcanvas-body a:hover {
+        color: tomato !important;
+        transform: translateY(-3px);
+    }
+
+    .offcanvas-body a.active {
+        width: fit-content;
+        transition: all 0.2s ease-in-out;
+        color: tomato !important;
+        border-bottom: 2px solid tomato;
+    }
+
+    header .navbar .offcanvas-body .orderbtn {
+        display: block !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-section .logo-img {
+        display: none;
+    }
+}
+
+/* PNG Icon */
+.header-section .logo-img {
+    height: 40px; /* Adjust the height as needed */
+    width: auto;
+    color: tomato !important;
+}
+
+.header-section .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.header-section .navbar-brand span {
+    font-size: 22px;
+    color: tomato;
+    line-height: 150%;
+    font-family: var(--fontFamily1);
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 2px; /* Adjust spacing as needed */
+}
+
+.header-section .navbar-brand span:hover {
+    color: rgb(255, 38, 0);
+}

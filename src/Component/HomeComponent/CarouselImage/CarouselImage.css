@@ -1,0 +1,63 @@
+
+.carousel-item1
+{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.30)), url("./menu.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item2
+{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.30)), url("./bulk\ orders.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.carousel-item3
+{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.70)), url("./catering.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:992px) {
+
+    .carousel-item1
+{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url("./menu.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item2
+{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url("./bulk\ orders.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.carousel-item3
+{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("./catering.jpg");
+    background-size: cover;
+    background-position: center;
+}
+   
+}
+
+#tomato-btn
+{
+    background-color: tomato !important;
+    padding: 8px 15px !important;
+    font-size: 16px;
+    color: white !important;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 500 !important;
+    border-radius: 4px;
+    border: none;
+    margin-top: 30px;
+}

@@ -1,0 +1,32 @@
+.our-services-page
+{
+    overflow: hidden;
+}
+.our-services-page .heading-section .heading
+{
+    font-family: var(--fontFamily1);
+}
+.catering-service-list {
+    padding: 10px; /* Optional padding inside the card container */
+    margin-right: 15px; /* Adjust this value for more or less space between cards */
+}
+.our-services-page .catering-service-list .catering-icon svg{
+    width: 80px;
+    height: 80px;
+    color: tomato;
+}
+
+/* --------------slider dots----------------- */
+.our-services-page .slick-dots {
+    bottom: -35px; 
+}
+
+.our-services-page .slick-dots li button:before {
+    font-size: 12px;
+    color: #000; 
+}
+
+.our-services-page .slick-dots li.slick-active button:before {
+    color: #ff0000; 
+}
+

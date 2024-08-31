@@ -1,0 +1,22 @@
+.get-a-quote .sendBtn
+{
+  background: tomato;
+  color: white;
+  border: 0;
+  font-weight: 500;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.get-a-quote .sendBtn:hover
+{
+  background: rgb(244, 41, 5);
+  color: white;
+}
+.get-a-quote .heading
+{
+    font-family: var(--fontFamily1);
+}
+.get-a-quote .form-label
+{
+    font-weight: 500;
+}

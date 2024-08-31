@@ -1,0 +1,47 @@
+.menu-dispaly {
+    padding: 20px; /* Add padding to the container */
+}
+
+.menu-dispaly .category-title {
+    margin-bottom: 40px; /* Space between the category title and the items */
+}
+
+.menu-dispaly .mb-5 {
+    margin-bottom: 40px; /* Space between top dishes and the items */
+}
+
+.menu-dispaly .row.g-4 {
+    margin-bottom: 20px; /* Space between rows of items */
+}
+
+/* Ensure buttons are properly styled */
+.menu-dispaly .showMoreBtn {
+    background: tomato;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.menu-dispaly .showMoreBtn:hover {
+    background: rgb(250, 41, 4);
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.menu-dispaly .btn-secondary {
+    background: #6c757d; /* Secondary button background */
+    color: white;
+    margin-left: 10px; /* Space between Show More and Show Less buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu-dispaly .btn-secondary:hover {
+    background: #5a6268;
+}

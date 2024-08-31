@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from "../src/Pages/Home/Home";
+import Menu from "../src/Pages/Menu/Menu";
+import BulkOrders from "../src/Pages/BulkOrder/BulkOrder";
+import Services from "../src/Pages/Services/Services";
+import Header from './Component/Common/Header/Header';
+import Footer from './Component/Common/Footer/Footer';
+import { useState } from 'react';
+import OrederHover from './Pages/OrderHover/OrederHover';
 
 function App() {
+
+  const [ order , setOrder] = useState(false)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+<>
+      
+      {order && <OrederHover setOrder={setOrder} />}
+
+      <div className={`App ${order ? "blurred-background" : ""}`}>
+
+        <Header setOrder={setOrder} />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/menu' element={<Menu setOrder={setOrder} />} />
+          <Route exact path='/bulkorders' element={<BulkOrders />} />
+          <Route exact path='/services' element={<Services />} />
+        </Routes>
+        <Footer />
+      </div>
+    </>
+
   );
 }
 

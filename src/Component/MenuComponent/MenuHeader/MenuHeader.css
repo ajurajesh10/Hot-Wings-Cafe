@@ -1,0 +1,7 @@
+.menu-hero-header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(./plates-with-chocolate-sticks-dark-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}

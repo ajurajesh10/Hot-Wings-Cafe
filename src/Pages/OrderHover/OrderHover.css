@@ -1,0 +1,44 @@
+/* OrederHover.css */
+
+.order-hover-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Blurring effect on the background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.order-hover-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+.order-hover-modal .closeBtn
+{
+    background: tomato;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.order-hover-modal .closeBtn:hover
+{
+    background: rgb(253, 40, 2);
+}
+.order-hover-modal .order-online-page .online-order a:hover
+{
+    background-color: tomato;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.serivies-page .whatsapp-icon
+{
+    z-index: 99999;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 25px;
+    bottom: 40px;
+    cursor: pointer;
+
+}
+.serivies-page .whatsapp-icon svg
+{
+    color: #25D366;
+}
+

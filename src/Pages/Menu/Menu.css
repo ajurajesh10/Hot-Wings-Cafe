@@ -1,0 +1,29 @@
+.menu-page #back-top
+{
+    opacity: 0;
+    z-index: 99999;
+    font-size: 26px;
+    line-height: 47px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.6s ease;
+    transform: translateY(40px);
+    background: tomato;
+}
+.menu-page #back-top svg
+{
+    padding-bottom: 8px;
+}
+
+.menu-page #back-top.active 
+{
+    opacity: 1;
+    transition: all 0.6s ease;
+    transform: translateY(-20px);
+}

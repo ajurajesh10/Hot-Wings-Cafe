@@ -1,0 +1,7 @@
+.bulk-order-header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(./hand-pointing-clipboard-mexican-food.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}

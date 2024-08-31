@@ -1,0 +1,18 @@
+.dinning-menu .heading
+{
+    font-family: var(--fontFamily1);
+}
+.dinning-menu
+{
+    background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url("./condiments-spices-quadratic-stone-board_75517-575.jpg") no-repeat;
+    padding: 88px 0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.dinning-menu .only-dinning
+{
+    letter-spacing: 2px;
+}
