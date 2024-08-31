@@ -11,7 +11,7 @@ const OnlineOrder = () => {
                     <div className='heading'><h2 className='text-center h1'>Order Online</h2></div>
                     <div className='online-order mt-5 mt-md-5'>
                         <a href="https://www.zomato.com/karur/hot-wings-karur-locality/order" target='blank'>Zomato</a>
-                        <a href="https://www.zomato.com/karur/hot-wings-karur-locality/order" target='blank'>Swiggy</a>
+                        <a href="https://www.swiggy.com" target='blank'>Swiggy</a>
                     </div>
                     </Col>
                 </Row>
